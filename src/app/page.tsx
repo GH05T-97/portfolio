@@ -67,7 +67,7 @@ const Portfolio = () => {
     }
   ];
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: any) => {
     document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth' });
     setIsMenuOpen(false);
   };
